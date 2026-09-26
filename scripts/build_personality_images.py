@@ -4,6 +4,8 @@ from pathlib import Path
 from urllib.parse import quote
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,7 +17,15 @@ RAW_BASE = "https://raw.githubusercontent.com/samfoufun-ai/space-monkeyz-images/
 
 UA = "SpaceMonkeyzImageBuilder/1.0 (educational project; GitHub Actions)"
 session = requests.Session()
-session.headers.update({"User-Agent": UA})
+retry = Retry(
+    total=6, connect=4, read=4, status=6,
+    backoff_factor=1.2,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+    respect_retry_after_header=True,
+)
+session.mount("https://", HTTPAdapter(max_retries=retry, pool_connections=4, pool_maxsize=4))
+session.headers.update({"User-Agent": UA, "Accept": "application/json,image/*;q=0.9,*/*;q=0.8"})
 
 ALIASES = {
     "Pelé": "Pelé",
@@ -55,6 +65,7 @@ def wiki_thumb(name, lang):
     }
     r = session.get(f"https://{lang}.wikipedia.org/w/api.php", params=params, timeout=25)
     r.raise_for_status()
+    time.sleep(0.18)
     data = r.json()
     pages = list(data.get("query", {}).get("pages", {}).values())
     if not pages or "missing" in pages[0]:
@@ -73,6 +84,7 @@ def search_thumb(name, lang):
     }
     r=session.get(f"https://{lang}.wikipedia.org/w/api.php", params=params, timeout=25)
     r.raise_for_status()
+    time.sleep(0.18)
     pages=list(r.json().get("query",{}).get("pages",{}).values())
     pages.sort(key=lambda x:x.get("index",999))
     for p in pages:
@@ -141,7 +153,7 @@ def main():
                 "wiki_lang":"","resolved_title":"","status":"failed"
             })
             print(f"[{i:03d}/{len(rows)}] ERR {name}: {e}")
-        time.sleep(0.08)
+        time.sleep(0.45)
 
     fields=["id","name","category","filename","raw_url","source_page","source_image","wiki_lang","resolved_title","status"]
     with MANIFEST.open("w",encoding="utf-8-sig",newline="") as f:
@@ -152,5 +164,3 @@ def main():
 
 if __name__=="__main__":
     main()
-
-# trigger build
