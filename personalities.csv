@@ -1,0 +1,301 @@
+id,name,category
+1,Tom Hanks,Cinéma & séries
+2,Leonardo DiCaprio,Cinéma & séries
+3,Brad Pitt,Cinéma & séries
+4,Johnny Depp,Cinéma & séries
+5,Denzel Washington,Cinéma & séries
+6,Will Smith,Cinéma & séries
+7,Morgan Freeman,Cinéma & séries
+8,Robert Downey Jr.,Cinéma & séries
+9,Keanu Reeves,Cinéma & séries
+10,Tom Cruise,Cinéma & séries
+11,Ryan Reynolds,Cinéma & séries
+12,Hugh Jackman,Cinéma & séries
+13,Chris Hemsworth,Cinéma & séries
+14,Dwayne Johnson,Cinéma & séries
+15,Samuel L. Jackson,Cinéma & séries
+16,George Clooney,Cinéma & séries
+17,Matt Damon,Cinéma & séries
+18,Christian Bale,Cinéma & séries
+19,Joaquin Phoenix,Cinéma & séries
+20,Jackie Chan,Cinéma & séries
+21,Arnold Schwarzenegger,Cinéma & séries
+22,Sylvester Stallone,Cinéma & séries
+23,Jim Carrey,Cinéma & séries
+24,Eddie Murphy,Cinéma & séries
+25,Rowan Atkinson,Cinéma & séries
+26,Emma Stone,Cinéma & séries
+27,Scarlett Johansson,Cinéma & séries
+28,Natalie Portman,Cinéma & séries
+29,Angelina Jolie,Cinéma & séries
+30,Jennifer Lawrence,Cinéma & séries
+31,Meryl Streep,Cinéma & séries
+32,Julia Roberts,Cinéma & séries
+33,Nicole Kidman,Cinéma & séries
+34,Anne Hathaway,Cinéma & séries
+35,Margot Robbie,Cinéma & séries
+36,Sandra Bullock,Cinéma & séries
+37,Charlize Theron,Cinéma & séries
+38,Gal Gadot,Cinéma & séries
+39,Zendaya,Cinéma & séries
+40,Emma Watson,Cinéma & séries
+41,Jennifer Aniston,Cinéma & séries
+42,Courteney Cox,Cinéma & séries
+43,Millie Bobby Brown,Cinéma & séries
+44,Pedro Pascal,Cinéma & séries
+45,Benedict Cumberbatch,Cinéma & séries
+46,Cillian Murphy,Cinéma & séries
+47,Jason Momoa,Cinéma & séries
+48,Daniel Radcliffe,Cinéma & séries
+49,Harrison Ford,Cinéma & séries
+50,Clint Eastwood,Cinéma & séries
+51,Michael Jackson,Musique
+52,Elvis Presley,Musique
+53,Freddie Mercury,Musique
+54,David Bowie,Musique
+55,Prince,Musique
+56,Stevie Wonder,Musique
+57,Elton John,Musique
+58,Paul McCartney,Musique
+59,John Lennon,Musique
+60,Bob Marley,Musique
+61,Bruce Springsteen,Musique
+62,Mick Jagger,Musique
+63,Phil Collins,Musique
+64,Sting,Musique
+65,Bono,Musique
+66,Eminem,Musique
+67,Jay-Z,Musique
+68,Kanye West,Musique
+69,Drake,Musique
+70,The Weeknd,Musique
+71,Bruno Mars,Musique
+72,Ed Sheeran,Musique
+73,Justin Bieber,Musique
+74,Harry Styles,Musique
+75,Snoop Dogg,Musique
+76,Beyoncé,Musique
+77,Rihanna,Musique
+78,Taylor Swift,Musique
+79,Lady Gaga,Musique
+80,Adele,Musique
+81,Madonna,Musique
+82,Britney Spears,Musique
+83,Céline Dion,Musique
+84,Whitney Houston,Musique
+85,Mariah Carey,Musique
+86,Ariana Grande,Musique
+87,Dua Lipa,Musique
+88,Billie Eilish,Musique
+89,Shakira,Musique
+90,Jennifer Lopez,Musique
+91,Miley Cyrus,Musique
+92,Katy Perry,Musique
+93,Christina Aguilera,Musique
+94,Tina Turner,Musique
+95,Aretha Franklin,Musique
+96,Nicki Minaj,Musique
+97,Sia,Musique
+98,Alicia Keys,Musique
+99,Amy Winehouse,Musique
+100,Mylène Farmer,Musique
+101,Lionel Messi,Sport
+102,Cristiano Ronaldo,Sport
+103,Kylian Mbappé,Sport
+104,Neymar,Sport
+105,Zinedine Zidane,Sport
+106,Pelé,Sport
+107,Diego Maradona,Sport
+108,Ronaldinho,Sport
+109,Thierry Henry,Sport
+110,David Beckham,Sport
+111,Kevin De Bruyne,Sport
+112,Eden Hazard,Sport
+113,Romelu Lukaku,Sport
+114,Erling Haaland,Sport
+115,Mohamed Salah,Sport
+116,Michael Jordan,Sport
+117,LeBron James,Sport
+118,Kobe Bryant,Sport
+119,Stephen Curry,Sport
+120,Shaquille O'Neal,Sport
+121,Magic Johnson,Sport
+122,Serena Williams,Sport
+123,Venus Williams,Sport
+124,Roger Federer,Sport
+125,Rafael Nadal,Sport
+126,Novak Djokovic,Sport
+127,Carlos Alcaraz,Sport
+128,Tiger Woods,Sport
+129,Usain Bolt,Sport
+130,Simone Biles,Sport
+131,Michael Phelps,Sport
+132,Lewis Hamilton,Sport
+133,Max Verstappen,Sport
+134,Ayrton Senna,Sport
+135,Michael Schumacher,Sport
+136,Valentino Rossi,Sport
+137,Conor McGregor,Sport
+138,Muhammad Ali,Sport
+139,Mike Tyson,Sport
+140,Floyd Mayweather Jr.,Sport
+141,Ronda Rousey,Sport
+142,Tony Parker,Sport
+143,Victor Wembanyama,Sport
+144,Teddy Riner,Sport
+145,Antoine Dupont,Sport
+146,Jonah Lomu,Sport
+147,Megan Rapinoe,Sport
+148,Alex Morgan,Sport
+149,Lindsey Vonn,Sport
+150,Tony Hawk,Sport
+151,Albert Einstein,Science & exploration
+152,Isaac Newton,Science & exploration
+153,Marie Curie,Science & exploration
+154,Nikola Tesla,Science & exploration
+155,Charles Darwin,Science & exploration
+156,Galileo Galilei,Science & exploration
+157,Stephen Hawking,Science & exploration
+158,Louis Pasteur,Science & exploration
+159,Alexander Fleming,Science & exploration
+160,Thomas Edison,Science & exploration
+161,Alan Turing,Science & exploration
+162,Ada Lovelace,Science & exploration
+163,Archimedes,Science & exploration
+164,Niels Bohr,Science & exploration
+165,Richard Feynman,Science & exploration
+166,Max Planck,Science & exploration
+167,Johannes Kepler,Science & exploration
+168,Nicolaus Copernicus,Science & exploration
+169,Gregor Mendel,Science & exploration
+170,Dmitri Mendeleev,Science & exploration
+171,Rosalind Franklin,Science & exploration
+172,James Watson,Science & exploration
+173,Francis Crick,Science & exploration
+174,Jane Goodall,Science & exploration
+175,Rachel Carson,Science & exploration
+176,Carl Sagan,Science & exploration
+177,Neil deGrasse Tyson,Science & exploration
+178,Brian Cox,Science & exploration
+179,Michio Kaku,Science & exploration
+180,Katherine Johnson,Science & exploration
+181,Sally Ride,Science & exploration
+182,Yuri Gagarin,Science & exploration
+183,Neil Armstrong,Science & exploration
+184,Buzz Aldrin,Science & exploration
+185,Mae Jemison,Science & exploration
+186,Valentina Tereshkova,Science & exploration
+187,Tim Peake,Science & exploration
+188,Thomas Pesquet,Science & exploration
+189,Chris Hadfield,Science & exploration
+190,Edwin Hubble,Science & exploration
+191,Vera Rubin,Science & exploration
+192,Lise Meitner,Science & exploration
+193,Barbara McClintock,Science & exploration
+194,Dorothy Hodgkin,Science & exploration
+195,Tu Youyou,Science & exploration
+196,Jennifer Doudna,Science & exploration
+197,Emmanuelle Charpentier,Science & exploration
+198,Jane C. Wright,Science & exploration
+199,Georges Lemaître,Science & exploration
+200,Blaise Pascal,Science & exploration
+201,Leonardo da Vinci,"Histoire, arts & littérature"
+202,Vincent van Gogh,"Histoire, arts & littérature"
+203,Pablo Picasso,"Histoire, arts & littérature"
+204,Claude Monet,"Histoire, arts & littérature"
+205,Salvador Dalí,"Histoire, arts & littérature"
+206,Frida Kahlo,"Histoire, arts & littérature"
+207,Andy Warhol,"Histoire, arts & littérature"
+208,Michelangelo,"Histoire, arts & littérature"
+209,Rembrandt,"Histoire, arts & littérature"
+210,Banksy,"Histoire, arts & littérature"
+211,William Shakespeare,"Histoire, arts & littérature"
+212,Victor Hugo,"Histoire, arts & littérature"
+213,Jules Verne,"Histoire, arts & littérature"
+214,Alexandre Dumas,"Histoire, arts & littérature"
+215,Molière,"Histoire, arts & littérature"
+216,Agatha Christie,"Histoire, arts & littérature"
+217,J. K. Rowling,"Histoire, arts & littérature"
+218,Stephen King,"Histoire, arts & littérature"
+219,George R. R. Martin,"Histoire, arts & littérature"
+220,J. R. R. Tolkien,"Histoire, arts & littérature"
+221,Ernest Hemingway,"Histoire, arts & littérature"
+222,Oscar Wilde,"Histoire, arts & littérature"
+223,Mark Twain,"Histoire, arts & littérature"
+224,Charles Dickens,"Histoire, arts & littérature"
+225,Jane Austen,"Histoire, arts & littérature"
+226,George Orwell,"Histoire, arts & littérature"
+227,Edgar Allan Poe,"Histoire, arts & littérature"
+228,Arthur Conan Doyle,"Histoire, arts & littérature"
+229,Antoine de Saint-Exupéry,"Histoire, arts & littérature"
+230,Roald Dahl,"Histoire, arts & littérature"
+231,Napoleon Bonaparte,"Histoire, arts & littérature"
+232,Julius Caesar,"Histoire, arts & littérature"
+233,Cleopatra,"Histoire, arts & littérature"
+234,Joan of Arc,"Histoire, arts & littérature"
+235,Winston Churchill,"Histoire, arts & littérature"
+236,Mahatma Gandhi,"Histoire, arts & littérature"
+237,Nelson Mandela,"Histoire, arts & littérature"
+238,Martin Luther King Jr.,"Histoire, arts & littérature"
+239,Abraham Lincoln,"Histoire, arts & littérature"
+240,Rosa Parks,"Histoire, arts & littérature"
+241,Anne Frank,"Histoire, arts & littérature"
+242,Mother Teresa,"Histoire, arts & littérature"
+243,Che Guevara,"Histoire, arts & littérature"
+244,Amelia Earhart,"Histoire, arts & littérature"
+245,Marco Polo,"Histoire, arts & littérature"
+246,Christopher Columbus,"Histoire, arts & littérature"
+247,Tutankhamun,"Histoire, arts & littérature"
+248,Alexander the Great,"Histoire, arts & littérature"
+249,Genghis Khan,"Histoire, arts & littérature"
+250,Marie Antoinette,"Histoire, arts & littérature"
+251,Oprah Winfrey,"Télé, médias & personnalités"
+252,Ellen DeGeneres,"Télé, médias & personnalités"
+253,Jimmy Fallon,"Télé, médias & personnalités"
+254,Jimmy Kimmel,"Télé, médias & personnalités"
+255,Stephen Colbert,"Télé, médias & personnalités"
+256,Gordon Ramsay,"Télé, médias & personnalités"
+257,Jamie Oliver,"Télé, médias & personnalités"
+258,Bear Grylls,"Télé, médias & personnalités"
+259,David Attenborough,"Télé, médias & personnalités"
+260,Jeremy Clarkson,"Télé, médias & personnalités"
+261,Richard Hammond,"Télé, médias & personnalités"
+262,James May,"Télé, médias & personnalités"
+263,Simon Cowell,"Télé, médias & personnalités"
+264,RuPaul,"Télé, médias & personnalités"
+265,Tyra Banks,"Télé, médias & personnalités"
+266,Kim Kardashian,"Télé, médias & personnalités"
+267,Kylie Jenner,"Télé, médias & personnalités"
+268,Kendall Jenner,"Télé, médias & personnalités"
+269,Paris Hilton,"Télé, médias & personnalités"
+270,MrBeast,"Télé, médias & personnalités"
+271,PewDiePie,"Télé, médias & personnalités"
+272,Markiplier,"Télé, médias & personnalités"
+273,Logan Paul,"Télé, médias & personnalités"
+274,Jake Paul,"Télé, médias & personnalités"
+275,KSI,"Télé, médias & personnalités"
+276,Squeezie,"Télé, médias & personnalités"
+277,Cyprien Iov,"Télé, médias & personnalités"
+278,Norman Thavaud,"Télé, médias & personnalités"
+279,Mister V,"Télé, médias & personnalités"
+280,Inoxtag,"Télé, médias & personnalités"
+281,Michou,"Télé, médias & personnalités"
+282,Amixem,"Télé, médias & personnalités"
+283,Léna Situations,"Télé, médias & personnalités"
+284,HugoDécrypte,"Télé, médias & personnalités"
+285,Natoo,"Télé, médias & personnalités"
+286,Omar Sy,"Télé, médias & personnalités"
+287,Jamel Debbouze,"Télé, médias & personnalités"
+288,Gad Elmaleh,"Télé, médias & personnalités"
+289,Dany Boon,"Télé, médias & personnalités"
+290,Florence Foresti,"Télé, médias & personnalités"
+291,Jean Dujardin,"Télé, médias & personnalités"
+292,Marion Cotillard,"Télé, médias & personnalités"
+293,Sophie Marceau,"Télé, médias & personnalités"
+294,Alain Delon,"Télé, médias & personnalités"
+295,Jean-Paul Belmondo,"Télé, médias & personnalités"
+296,Louis de Funès,"Télé, médias & personnalités"
+297,Pierre Richard,"Télé, médias & personnalités"
+298,Audrey Hepburn,"Télé, médias & personnalités"
+299,Marilyn Monroe,"Télé, médias & personnalités"
+300,Charlie Chaplin,"Télé, médias & personnalités"
