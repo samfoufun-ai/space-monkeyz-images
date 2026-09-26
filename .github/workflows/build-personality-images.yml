@@ -9,6 +9,10 @@ on:
       - "scripts/build_personality_images.py"
       - ".github/workflows/build-personality-images.yml"
 
+concurrency:
+  group: build-personality-images
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
